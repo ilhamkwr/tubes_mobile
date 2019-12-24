@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tubes_mobile/constants.dart';
 import 'package:tubes_mobile/screens/register_view.dart';
+import 'package:tubes_mobile/screens/scanqr.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -129,11 +130,21 @@ class LoginPage extends StatelessWidget {
           child: Container(
             padding: EdgeInsets.symmetric(vertical: 8.0),
             width: double.infinity,
-            child: Text(
-              'Login',
-              style: TextStyle(color: ColorPalette.primaryColor),
-              textAlign: TextAlign.center,
+            child: FlatButton(
+                child: Text(
+                'Login',
+                style: TextStyle(color: ColorPalette.primaryColor),
+                textAlign: TextAlign.center,
+              ),
+              onPressed: (){
+                Navigator.push(
+                 context,
+                 MaterialPageRoute(builder: (context)=>ScanQr()), 
+                );
+              },
             ),
+           
+            
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(30.0),
