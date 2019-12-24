@@ -65,4 +65,3 @@ class _MyAppState extends State<MyApp> {
     this.setState(() => this.bytes = result);
   }
 }
-
