@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "129500651212",
+    "firebase_url": "https://absen-qr-b396a.firebaseio.com",
+    "project_id": "absen-qr-b396a",
+    "storage_bucket": "absen-qr-b396a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129500651212:android:522671798c0f542c3aac69",
+        "android_client_info": {
+          "package_name": "com.usu.tubes_mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129500651212-me8ucgp5n6ed5ks13itm8lckkuo9o383.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYp8Nl0Kl4Y3PRBIzXOzhDl8UUXlCeDes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129500651212-me8ucgp5n6ed5ks13itm8lckkuo9o383.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129500651212:android:6da3070cd78d5b713aac69",
+        "android_client_info": {
+          "package_name": "com.usu.tubesmobile1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129500651212-me8ucgp5n6ed5ks13itm8lckkuo9o383.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYp8Nl0Kl4Y3PRBIzXOzhDl8UUXlCeDes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129500651212-me8ucgp5n6ed5ks13itm8lckkuo9o383.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
