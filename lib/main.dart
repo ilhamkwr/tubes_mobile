@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 import './detail.dart';
+import 'adddata.dart';
 
 void main(){
   runApp(new MaterialApp(
@@ -19,7 +20,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
 Future<List> getData() async{
-  final response = await http.get("http://192.168.43.207/api_toko/getdata.php");
+  final response = await http.get("http://172.20.10.3/api_toko/getdata.php");
   return json.decode(response.body);
 }
 
@@ -31,7 +32,11 @@ Future<List> getData() async{
         ),
       floatingActionButton: new FloatingActionButton(
         child: new Icon(Icons.add),
-        onPressed: (){},
+        onPressed: ()=>Navigator.of(context).push(
+          new MaterialPageRoute(
+            builder: (BuildContext context)=>new AddData(),
+          )
+        ),
       ),
       body: new FutureBuilder<List>(
         future: getData(),
