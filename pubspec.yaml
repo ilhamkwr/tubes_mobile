@@ -1,4 +1,4 @@
-name: qrcode_tubes
+name: tubes_mobile
 description: A new Flutter project.
 
 # The following defines the version and build number for your application.
@@ -26,6 +26,9 @@ dependencies:
   flutter_barcode_scanner : ^0.0.9
   http: ^0.12.0+2
   qrscan: ^0.2.17
+  shared_preferences: ^0.5.3+4
+  
+
 
 dev_dependencies:
   flutter_test:
